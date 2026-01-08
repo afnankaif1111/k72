@@ -8,9 +8,6 @@ const App = () => {
   return (
 
     <div className='text-white'>
-      <Link to="/">Home</Link>
-      <Link to="/agents">Agents</Link>
-      <Link to="/projects">Projects</Link>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/agents' element={<Agents/>} />
