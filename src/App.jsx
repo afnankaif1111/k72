@@ -5,17 +5,13 @@ import Agents from './pages/Agents'
 import Projects from './pages/projects'
 
 const App = () => {
-  return (
+  return (<div>
 
-    <div className='text-white'>
-      <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/agents' element={<Agents/>} />
-        <Route path='/' element={<Projects/> } />
-        
-      </Routes>
-    </div>
+    <h1>hi babe</h1>
+  </div>
   )
 }
+
+
 
 export default App

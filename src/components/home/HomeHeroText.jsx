@@ -1,5 +1,5 @@
 import React from 'react'
-import Video from './Video'
+import Video from './Video1'
 
 const HomeHeroText = () => {
   return (
@@ -8,7 +8,7 @@ const HomeHeroText = () => {
             Manifest.
         </div>
         <div className='text-[6vw] uppercase justify-center flex items-center leading-[6vw]'>
-            Obesessi <div className='bg-amber-300 h-[5vw] w-[5vw] -mt-2.5 rounded-full '><Video/></div> n.
+            Obesessi <div className='bg-amber-300 h-[5vw] w-[5vw] -mt-2.5 rounded-full '><Video1 /></div> n.
         </div>
         <div className='text-[6vw] uppercase justify-center flex items-center leading-[6vw]'>
             Engineer.
